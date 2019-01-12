@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>turtlebot3_flask</name>
+  <version>0.2.1</version>
+  <description>
+    Provides teleoperation using keyboard for TurtleBot3.
+  </description>
+  <author email="redtree941@naver.com">Cheonkyu Kim</author>
+  <maintainer email="redtree941@naver.com">Cheonkyu Kim</maintainer>
+  <license>MIT</license>
+  <url type="bugtracker">https://github.com/ROBOTIS-GIT/turtlebot3/issues</url>
+  <url type="repository">https://github.com/ROBOTIS-GIT/turtlebot3</url>
+  <url type="website">http://turtlebot3.robotis.com</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>flask</run_depend>
+  <run_depend>flask_jsonpify</run_depend>
+</package>
