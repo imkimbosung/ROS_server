@@ -1,7 +1,12 @@
 # ROS_server
 
-* flask를 사용한 서버입니다. 
-* server 실행 전 roscore먼저 실행할 것
+* turtlebot3와 app을 연동해주는 server입니다.
+
+* 운영체제 : ubuntu 16.04, ROS
+* 프레임워크 : flask 
+
+* 주의사항
+- server 실행 전 roscore먼저 실행할 것
 
 ### server 실행 방법
 1. git clone 
